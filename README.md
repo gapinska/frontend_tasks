@@ -1,1 +1,1 @@
-Front-end training
+Front-end training tasks
