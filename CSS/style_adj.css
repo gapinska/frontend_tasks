@@ -1,0 +1,9 @@
+/*adjacent selectors*/
+#all-articles h2 +p{
+    color: red;
+}
+
+/*child selectors*/
+#header>p{
+font-weight:bold;
+}
