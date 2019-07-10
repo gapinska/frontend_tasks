@@ -20,7 +20,7 @@ class App extends React.Component {
     //   text: this.state.text + letter
     this.setState((prevState) => ({
         text: this.prevState.text 
-      }))
+      }))}
 
   render() {
     return (
@@ -32,7 +32,9 @@ class App extends React.Component {
     )
   }
 }
-}
- 
 
-export default App;
+export default App
+
+
+
+
