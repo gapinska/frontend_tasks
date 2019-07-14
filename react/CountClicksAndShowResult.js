@@ -9,7 +9,7 @@ class App extends React.Component{
   }
 
   handleMathClick = (type, number) => {
-    if(type ==="substraction"){
+    if(type ==="subtraction"){
       this.setState(prevState => ({
         count: prevState.count + 1,
         result: prevState.result - number
@@ -32,7 +32,7 @@ class App extends React.Component{
   render(){
     return(
       <>
-        <button onClick={() => this.handleMathClick("substraction",1)}>-1</button>
+        <button onClick={() => this.handleMathClick("subtraction",1)}>-1</button>
         <button onClick = {this.handleResetButton}>Reset</button>
         <button onClick= {()=> this.handleMathClick("addition", 1)}>+1</button>
         <h1>Number of clicks: {this.state.count}</h1>
