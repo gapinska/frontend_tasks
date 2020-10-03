@@ -1,6 +1,6 @@
 let lastId = 0
 
-export default function reducer(state = [], action) {
+function reducer(state = [], action) {
   switch (action.type) {
     case "bugAdded":
       return [
@@ -17,3 +17,5 @@ export default function reducer(state = [], action) {
       return state
   }
 }
+
+export default reducer
